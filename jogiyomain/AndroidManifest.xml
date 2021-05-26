@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jogiyo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Jogiyo">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.restaurant"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow2"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow3"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow4"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow5"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow6"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.sampleshow7"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar1"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar2"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar3"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar4"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar5"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar6"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.example.jogiyo.bar7"
+            android:screenOrientation="landscape">
+        </activity>
+
+    </application>
+
+</manifest>
