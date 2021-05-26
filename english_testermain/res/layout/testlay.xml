@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/mm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="back"/>
+    <Button
+        android:id="@+id/m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="test"/>
+
+    <Button
+        android:id="@+id/mm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="answer"/>
+
+</TableRow>
+
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/tb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="apple"/>
+
+    <Button
+        android:id="@+id/tb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="banana"/>
+
+    <Button
+        android:id="@+id/tb3"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="kiwi" />
+
+    <Button
+        android:id="@+id/tb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="orange"/>
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/tb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="boy"/>
+
+    <Button
+        android:id="@+id/tb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="girl"/>
+
+    <Button
+        android:id="@+id/tb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="man"/>
+
+    <Button
+        android:id="@+id/tb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="woman"/>
+
+</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="460dp">
+
+        <Button
+            android:id="@+id/tb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="car" />
+
+        <Button
+            android:id="@+id/tb10"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="bus" />
+
+        <Button
+            android:id="@+id/tb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="love" />
+
+        <Button
+            android:id="@+id/tb12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="cup" />
+
+    </TableRow>
+
+
+</TableLayout>
