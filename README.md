@@ -1,3 +1,3 @@
 # android app  vacation project directory
 
-# android app branch is main
+# please change branch to android app
